@@ -1,0 +1,69 @@
+body{
+    background-color: aqua;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:  x-large;
+}
+ul li{
+    margin-right: 20px;
+}
+a{
+    color: rgb(15, 98, 172);
+    text-decoration: none;
+}
+.imgneymar01{
+   
+    text-align: center;
+}
+.imgneymarnosantos{
+
+    text-align: center;
+}
+.neymanobarça{
+  
+    text-align: center;
+}
+header img{
+    height: 150px;
+    width: 200;
+    border-radius: 50px;
+    border: 3px solid coral ; 
+}   
+.tudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+footer img{
+    width: 100px;
+    border-radius: 50%;
+    
+}   
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tudo:hover > :not(:hover){
+    opacity: 0.5;
+    transform: scale(0.5);
+}
+li a:hover{
+    color: rgb(255, 0, 0);
+}
+.geral{
+    padding:  50px;
+}
